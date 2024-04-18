@@ -17,15 +17,21 @@ h1 {
   font-size: 2.5vw;
 }
 
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .post {
   margin-left: 2vw;
-  height: 10vw;
-  width: 95vw;
+  height: 12vw;
+  width: 25vw;
   background-color: white;
   padding-left: 1vw;
   padding-top: 0.5vw;
   margin-top: 2vw;
   text-align: center;
+  border-radius: 1vw;
 }
 
 .user {
@@ -38,4 +44,23 @@ h1 {
 .content {
   font-size: 1.5vw;
   margin-top: 0.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: #b92b27;
+  border-radius: 0.5vw;
+  border: none;
+  height: 2vw;
+  padding: 0 1vw 0 1vw;
+  font-size: 1.1vw;
+}
+
+.delete {
+  text-align: center;
 }
