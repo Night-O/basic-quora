@@ -1,0 +1,41 @@
+body {
+  background-color: #ececec;
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0;
+  background-color: white;
+  height: 3.5vw;
+  text-align: center;
+  padding-top: 0.7vw;
+}
+
+h1 {
+  margin: 0;
+  color: #b92b27;
+  font-size: 2.5vw;
+}
+
+.post {
+  margin-left: 2vw;
+  height: 10vw;
+  width: 95vw;
+  background-color: white;
+  padding-left: 1vw;
+  padding-top: 0.5vw;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.user {
+  font-style: italic;
+  font-size: 1.5vw;
+  margin-top: 0.2vw;
+  margin-bottom: 0.4vw;
+}
+
+.content {
+  font-size: 1.5vw;
+  margin-top: 0.5vw;
+}
